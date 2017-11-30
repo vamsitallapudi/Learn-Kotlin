@@ -2,7 +2,6 @@
  * Copyright (c) 2017.
  * The Content is copyrighted to $Name
  */
-
 package main.BasicTypes
 
 fun main(args : Array<String>) {
