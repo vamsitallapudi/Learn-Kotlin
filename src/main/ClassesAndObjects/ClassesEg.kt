@@ -2,8 +2,10 @@ package main.ClassesAndObjects
 
 
 fun main(args: Array<String>) {
-    val vamsi = Student("vamsi", "8686670474",26)
-    val sushma = Student("sushma",22)
+//    val vamsikrishna = Student("vamsi", "8686670474",26)
+//    val sushma = Student("sushma",22)
+    val vamsi = Vamsi("vamsi")
+    vamsi.printName()
 }
 
 //class with primary constructor
@@ -16,10 +18,10 @@ for primary constructor
 
 
 // primary constructor's arguments can be passed after class name
-open class Student(var name: String) {
+open class Student(open var name: String) {
 
     //primary constructors parameters are visible to the properties(fields) too
-    var nameToUppercase = name.toUpperCase()
+//    var nameToUppercase = name.toUpperCase()
     var age = 10
 
     open fun printName(){
@@ -44,10 +46,28 @@ open class Student(var name: String) {
     }
 }
 
-open class Sushma : Student("sushma") {
+open class Sushma : Student {
+    open var height=5
+    constructor(name:String):super(name)
+    constructor(name:String, age:Int):super(name, age)
+    constructor(name:String, mobileNo: String,age:Int):super(name, mobileNo,age)
 
-    final override fun printName(){
-        println("Hey there this is my extended class")
+    //A member marked override is itself open
+    override fun printName(){
+        println("Hey there, i am $name")
+    }
+}
+
+
+
+class Vamsi(var myName: String) : Sushma(myName) {
+    override var height = 6
+    init {
+        this.name = myName
+    }
+
+    override fun printName() {
+        println("This is name in $myName's style")
     }
 
 }
