@@ -56,6 +56,10 @@ open class Sushma : Student {
     override fun printName(){
         println("Hey there, i am $name")
     }
+
+    fun getMyWeight():Int{
+        return height
+    }
 }
 
 
@@ -68,6 +72,7 @@ class Vamsi(var myName: String) : Sushma(myName) {
 
     override fun printName() {
         println("This is name in $myName's style")
+        super.getMyWeight()
     }
 
 }
