@@ -8,6 +8,8 @@ public class Sushma extends Student{
 
     @Override
     public boolean getPassOrFail(int marks) {
+        int length = 30;
+
         if(marks>15){
             return true;
         } else {
