@@ -54,7 +54,7 @@ open class Sushma : Student {
 
     //A member marked override is itself open
     override fun printName(){
-        println("Hey there, i am $name")
+        println("Hello world, i am $name")
     }
 
     fun getMyWeight():Int{
