@@ -6,7 +6,7 @@ public class Student {
 
     @NotNull public String name;
     private int age;
-    private int rollNo;
+    protected int rollNo;
     private String mobileNo;
 
     public Student(){
@@ -57,5 +57,11 @@ public class Student {
 
     public void setRollNo(int rollNo) {
         this.rollNo = rollNo;
+    }
+
+    class Sushmi{
+        Sushmi(){
+            age = 45;
+        }
     }
 }
