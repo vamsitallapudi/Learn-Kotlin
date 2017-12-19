@@ -1,4 +1,4 @@
-package main.ClassesAndObjects
+package main.classesandobjects
 
 fun main(args: Array<String>) {
     var fruits  = Fruits()

@@ -1,4 +1,4 @@
-package main.ClassesAndObjects
+package main.classesandobjects
 
 class Tiger : Animal(){
 
@@ -13,10 +13,6 @@ class Tiger : Animal(){
 
     override fun sleep() {
         println("Tiger is sleeping")
-    }
-
-    fun Rabbit.hop(){
-        println("Rabbit is hopping")
     }
 }
 

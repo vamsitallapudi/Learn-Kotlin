@@ -1,4 +1,4 @@
-package main.ClassesAndObjects
+package main.classesandobjects
 
 interface InterfaceEg{
 //    variable without initialization / abstract keyword (possible in interface)

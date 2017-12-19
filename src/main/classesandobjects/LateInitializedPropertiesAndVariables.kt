@@ -1,4 +1,4 @@
-package main.ClassesAndObjects
+package main.classesandobjects
 
 //      late initialization of top-level property
 lateinit var hello : Vamsi

@@ -1,4 +1,4 @@
-package main.ClassesAndObjects
+package main.classesandobjects
 
 const val DEPRECATED_MSG:String="Hello"
 
