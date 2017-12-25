@@ -1,12 +1,14 @@
 package main.classesandobjects
 
+/*This is the best place to declare Extension Functions / Properties
+* i.e., just below package declaration*/
+fun Rabbit.snore() {
+    println("I am Rabbit, I am snoring")
+    walking = true
+}
+
 fun main(args: Array<String>) {
     //  Extension functions
-    fun Rabbit.snore() {
-        println("I am Rabbit, I am snoring")
-        walking = true
-    }
-
     val rabbit = Rabbit()
     rabbit.sleep()
 
