@@ -22,7 +22,7 @@ open class Student(open var name: String) {
 
     //primary constructors parameters are visible to the properties(fields) too
 //    var nameToUppercase = name.toUpperCase()
-    internal var age = 10
+    internal open var age = 10
 
     open fun printName(){
         println(name.toUpperCase())
