@@ -1,4 +1,4 @@
-package Other
+package other
 
 class Human(name:String, age:Int, height:Int, weight:Int){
 

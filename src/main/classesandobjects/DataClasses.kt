@@ -1,9 +1,10 @@
 package main.classesandobjects
 
-import Other.Human
-import Other.HumanBeing
+import other.Human
+import other.HumanBeing
 
-/*data class must have atleast one parameter in primary constructor*/
+//  data class must have atleast one parameter in primary constructor
+
 data class User( var name:String, var age:Int) {
 
 }
