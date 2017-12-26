@@ -1,3 +1,13 @@
 language: java
 jdk:
- - oraclejdk8
+  - oraclejdk8
+install: ant bootstrap
+script: ant clean test jar
+deploy:
+  provider: releases
+  api_key:
+    secure: // elided
+  file: build/ApacheJMeter_rmi.jar
+  skip_cleanup: true
+  on:
+    tags: true
