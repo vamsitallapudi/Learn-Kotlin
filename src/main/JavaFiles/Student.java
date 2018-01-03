@@ -10,7 +10,7 @@ public class Student {
     private String mobileNo;
 
     public Student(){
-        System.out.println("Hi");
+//        System.out.println("Hi");
     }
 
 
