@@ -6,6 +6,7 @@ public class DelegateEg {
         Rectangle rectangle = new Rectangle(10, 20);
         Window window = new Window(rectangle);
         System.out.println(window.area());
+        System.out.println(window.getLength());
     }
 
 
@@ -34,5 +35,8 @@ class Window{
 
     protected int area(){
         return rectangle.area();
+    }
+    public int getLength(){
+        return rectangle.len;
     }
 }
