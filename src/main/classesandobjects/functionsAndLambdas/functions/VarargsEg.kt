@@ -22,6 +22,13 @@ fun main(args: Array<String>) {
     println(add(1,2,3,4,5,6))
 
 //Spread Operator(i.e., *) can be used to pass an array directly as parameter of varargs instead of passing values one by one
+    val a = arrayOf(4,5,6)
+    println(asList(1,2, *a,10))
+
+    val add = IntArray(10)
+    add[0]  = 4
+    add[1]  = 5
+    println(add(1,2,3,*add,6)) //--> Spread operator usage Eg 2
 
 
 
