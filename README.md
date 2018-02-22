@@ -1,2 +1,2 @@
 # Learn-Kotlin
-Let's Learn Kotlin together with Coderefer.com
+This repository is to put my kotlin learning
