@@ -1,10 +1,12 @@
 package main.JavaFiles;
 
-import org.jetbrains.annotations.NotNull;
+
+import com.sun.istack.internal.NotNull;
 
 public class Student {
 
-    @NotNull public String name;
+    @NotNull
+    public String name;
     private int age;
     protected int rollNo;
     private String mobileNo;
