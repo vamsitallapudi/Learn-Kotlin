@@ -32,6 +32,6 @@ class LateInitializedPropertiesAndVariables{
     }
 
     fun initializeVariables() {
-        a = Sushma("Sushma")
+        a = Sushma("Gowri")
     }
 }

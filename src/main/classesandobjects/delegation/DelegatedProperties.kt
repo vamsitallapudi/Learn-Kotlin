@@ -17,7 +17,7 @@ class ClassForDelegation{
 
 class SecondClassForDelegation{
     operator fun getValue(ref: Any, property: KProperty<*>): String {
-        return "Sushma"
+        return "Gowri"
     }
 
     operator fun setValue(ref: A, property: KProperty<*>, s: String) {

@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
 
     area(b = 2, h = 3) //-> length not declared, so takes default value
 
-//    area(1,b=2,3) -> not allowed since all the positional arguments should be placed before the first named one
+//    getArea(1,b=2,3) -> not allowed since all the positional arguments should be placed before the first named one
 
 }
 
